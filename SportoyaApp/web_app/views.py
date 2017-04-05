@@ -6,6 +6,5 @@ from django.template import loader
 
 def home(request):
     template = loader.get_template('Home.html')
-    context = {}
-    return HttpResponse(template.render(context, request))
+    return HttpResponse(template.render(request))
 
