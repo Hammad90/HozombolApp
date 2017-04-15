@@ -15,7 +15,7 @@ build/
 tests/report/
 
 ### IntelliJ IDEA ###
-SportoyaApp/.idea
+.idea
 *.iws
 *.iml
 *.ipr
